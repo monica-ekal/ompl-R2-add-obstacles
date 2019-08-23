@@ -6,7 +6,9 @@ The [Optimal Planning Tutorial](http://ompl.kavrakilab.org/optimalPlanningTutori
 ## Examples of different obstacle setups
 The red and black dots represent the start and goal points, respectively.
 
-1. ![alt text](/media/Figure_1.png)   
+1. 
+![alt text](/media/Figure_1.png)   
 
 
-2. ![alt text](/media/Figure_2.png)
+2. 
+![alt text](/media/Figure_2.png)
