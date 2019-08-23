@@ -144,7 +144,7 @@ public:
 void setupObstacles(Obstacles& o){
     Circle c1{0.2,0.2,0.1};
     Circle c2{0.8,0.8,0.1};
-    Circle c3{0.5,0.5,0.25 };
+    Circle c3{0.5,0.5,0.25};
     o.addObstacles(c1);
     o.addObstacles(c2);
     o.addObstacles(c3);
@@ -222,13 +222,15 @@ int main() {
         std::dynamic_pointer_cast<og::PathGeometric>(path)->printAsMatrix(f);
 
         // Launch the python script for plotting
-        Py_Initialize();
+        /*
+         Py_Initialize();
         FILE* PythonScriptFile = fopen("../plotting_python.py", "r");
         if(PythonScriptFile)
         {
             PyRun_SimpleFileEx(PythonScriptFile, "Python Scripts/Test.py",1);
         }
         Py_Finalize();
+         */
 
     }
     else
